@@ -16,21 +16,313 @@
         line-height: 1.6;
         
     }
+    header {
+    width: 100%;
+    height: 100vh;
+    background: url('bloodcells.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+}
+
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.hero-section {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 100px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+}
+
+/* Info Section */
+.info-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #dcd6d6;
+    padding: 100px 20px 60px;
+}
+.about-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about_left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.about_left p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.about_right {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 20px;
+}
+
+.info-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(213, 48, 48, 0.1);
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+}
+
+.card-icon {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.card:nth-child(1) {
+    background: #e0f7fa;
+    border-left: 5px solid #5c5252;
+}
+
+.card:nth-child(2) {
+    background: #fce4ec;
+    border-left: 5px solid #5c5252;
+}
+
+.card:nth-child(3) {
+    background: #e8f5e9;
+    border-left: 5px solid #5c5252;
+}
+
+.card:nth-child(4) {
+    background: #fff8e1;
+    border-left: 5px solid #5c5252;
+}
+
+/* Form Styling */
+.prediction-form {
+    background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.prediction-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.form-group input,
+.form-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button.btn {
+    background-color: #ed2424;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 13%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #d84040;
+}
+
+/* Contact Section */
+#contact {
+    background: #949393;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-details {
+    display: inline-block;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.contact-details a {
+    color: #d84040;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 40px);
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 1 1 calc(100% - 40px);
+    }
+}
+
     </style>
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
           
-            <div class="logo">AnemiaSense</div>
+            <div class="logo"><a href="#home">AnemiaSense</a></div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#predict">About</a></li>
+                <li><a href="predict.html">Predict</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             
-            <button type="button" class="btn">Predict</button>
+            <button type="button" id="predict" class="btn">Predict</button>
           
             <div class="burger">
                 <div class="line1"></div>
@@ -38,7 +330,7 @@
                 <div class="line3"></div>
             </div>
           </nav>
-        <div class="hero-section" id="home">
+        <div class="hero-section" >
             <h1>Anemia Predictor: Your Health Guardian</h1>
             <p>Empowering you with early detection for better management and healthier living.</p>
         </div>
@@ -46,39 +338,81 @@
     <main>
         <section id="about" class="info-section">
             <h2>About</h2>
-            <div class="card-container">
-                <div class="card">
-                    <i class="fas fa-tint card-icon"></i>
-                    <h3>Hemoglobin</h3>
-                    <p>Hemoglobin, a protein in red blood cells, transports oxygen and carbon dioxide. Healthy ranges: Men 13.2-16.6 g/dL, Women 11.6-15 g/dL.</p>
+            <div class="about-section-wrapper">
+                <div class="about_left">
+                    <p>
+                        Anemia is a condition with low red blood cells or hemoglobin, causing fatigue, weakness, shortness of breath, and pale skin. 
+                        Causes include nutritional deficiencies, diseases, and blood loss. Treatments vary accordingly.
+                    </p>
                 </div>
-                <div class="card">
-                    <i class="fas fa-dna card-icon"></i>
-                    <h3>MCH</h3>
-                    <p>An MCH value refers to the average quantity of hemoglobin present in a single red blood cell. The normal range for MCH is between 27.5 and 33.2 picograms (pg).</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-notes-medical card-icon"></i>
-                    <h3>MCHC</h3>
-                    <p>The mean corpuscular hemoglobin concentration is the average concentration of hemoglobin in red blood cells. The normal range: 33.4-35.5 g/dL.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-vial card-icon"></i>
-                    <h3>MCV</h3>
-                    <p>MCV stands for mean corpuscular volume. An MCV blood test measures the average size of red blood cells. The normal range for MCV is between 80 to 100 femtoliters.</p>
+                <div class="about_right">
+                    <div class="card">
+                        <i class="fas fa-tint card-icon"></i>
+                        <h3>Hemoglobin</h3>
+                        <p>Hemoglobin, a protein in red blood cells, transports oxygen and carbon dioxide. Healthy ranges: Men 13.2–16.6 g/dL, Women 11.6–15 g/dL.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-dna card-icon"></i>
+                        <h3>MCH</h3>
+                        <p>MCH refers to the average hemoglobin per red blood cell. Normal range: 27.5–33.2 pg.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-notes-medical card-icon"></i>
+                        <h3>MCHC</h3>
+                        <p>MCHC is the average hemoglobin concentration in RBCs. Normal range: 33.4–35.5 g/dL.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-vial card-icon"></i>
+                        <h3>MCV</h3>
+                        <p>MCV measures average red blood cell size. Normal range: 80–100 fL.</p>
+                    </div>
                 </div>
             </div>
         </section>
+
 
         <section id="contact" class="info-section">
             <h2>Contact Us</h2>
             <div class="contact-details">
                 <p><strong>The Smart Intern</strong></p>
+                <p><strong>Vinay Kumar</strong></p>
                 <p>Noida, Uttar Pradesh</p>
                 <p>Phone: <a href="tel:+91 11111114">+91 11111114</a></p>
                 <p>Email: <a href="mailto:sfdsfhghk@gmail.com">sfdsfhghk@gmail.com</a></p>
             </div>
         </section>
     </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-links a');
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-links');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetSection.offsetTop,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            burger.addEventListener('click', () => {
+                nav.classList.toggle('nav-active');
+            });
+        });
+        document.addEventListener('DOMContentLoaded', () => {
+    const predictButton = document.querySelector('.btn');
+
+    predictButton.addEventListener('click', () => {
+      window.location.href = '/predict';
+    });
+  });
+    </script>
+
 </body>
 </html>
