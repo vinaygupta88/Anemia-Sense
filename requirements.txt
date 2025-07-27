@@ -1,0 +1,12 @@
+python 
+jupyterlab>=3.4.0
+notebook>=6.5.0
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+scikit-learn
+xgboost
+joblib>=1.2.0
+pickle
+Flask
