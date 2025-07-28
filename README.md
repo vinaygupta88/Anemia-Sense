@@ -75,7 +75,7 @@ pip install -r requirements.txt
 python app.py
 
 ### Project Demonstration 
-    1- Code Explaination-  https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view?usp=drive_link
+    1- [Code Explaination](https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view)<br><br> https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view?usp=drive_link   
 
-    2- [Presentation](https://drive.google.com/file/d/1Xt5M7ans79xr7Uu2_xhAJisplSkcK1mM/view?usp=drive_link)
+    2- [Presentation](https://drive.google.com/file/d/1Xt5M7ans79xr7Uu2_xhAJisplSkcK1mM/view)
               
