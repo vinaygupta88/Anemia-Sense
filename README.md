@@ -31,7 +31,6 @@ Anemia is a serious global health issue, especially among women and children. Th
 ## 📁 Project Structure
 
 
-```bash
 Anemia-Sense/
 ├──DataSet/
 |       └── anemia.csv               
@@ -66,7 +65,7 @@ Ensure Python 3.7+ is installed.
 
 ## 📦 Clone the Repository
 
-```bash
+bash 
 git clone https://github.com/vinaygupta88/Anemia-Sense.git
 cd Anemia-Sense
 
