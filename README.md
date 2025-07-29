@@ -3,6 +3,7 @@ Anemiasense leverages machine learning algorithms to provide precise recognition
 
 Anemia Sense is a machine learning-powered diagnostic tool designed to predict anemia using user-input health parameters. This project demonstrates how artificial intelligence can aid early diagnosis, especially in regions with limited access to healthcare facilities.
 
+[Code_Explaination](https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view)
 ---
 
 
@@ -76,7 +77,7 @@ python app.py
 ## Project Demonstration 
 1- [Code_Explaination](https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view)
     
-     <br><br> https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view?usp=drive_link   
+    https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view?usp=drive_link   
 
 2- [Presentation](https://drive.google.com/file/d/1Xt5M7ans79xr7Uu2_xhAJisplSkcK1mM/view)
               
