@@ -60,11 +60,11 @@ Anemia-Sense/
 
 ## ⚙️ Installation & Setup
 
-### 🔧 Prerequisites
+## 🔧 Prerequisites
 
 Ensure Python 3.7+ is installed.
 
-### 📦 Clone the Repository
+## 📦 Clone the Repository
 
 ```bash
 git clone https://github.com/vinaygupta88/Anemia-Sense.git
@@ -74,8 +74,10 @@ pip install -r requirements.txt
 
 python app.py
 
-### Project Demonstration 
-    1- [Code_Explaination](https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view) <br><br> https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view?usp=drive_link   
+## Project Demonstration 
+1- [Code_Explaination](https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view)
+    
+     <br><br> https://drive.google.com/file/d/1c2Cab5lzOgVL9WzbyylPwl1xWB0eZc_l/view?usp=drive_link   
 
-    2- [My Presentation](https://drive.google.com/file/d/1Xt5M7ans79xr7Uu2_xhAJisplSkcK1mM/view)
+2- [Presentation](https://drive.google.com/file/d/1Xt5M7ans79xr7Uu2_xhAJisplSkcK1mM/view)
               
