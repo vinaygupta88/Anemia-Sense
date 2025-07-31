@@ -31,7 +31,7 @@ Anemia is a serious global health issue, especially among women and children. Th
 
 ## 📁 Project Structure
 
-
+```
 Anemia-Sense/
 ├──DataSet/
 |       └── anemia.csv               
@@ -54,7 +54,7 @@ Anemia-Sense/
 |       ├── Anemia-sense-jupterFile.ipynb
 |       ├── model.pkl                 
 └── README.md     
-
+```
 
 ---
 
